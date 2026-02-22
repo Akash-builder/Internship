@@ -1,0 +1,6 @@
+ 
+DAILY REPORT - 11-02-2026 ----------------------- 
+Total Employees         : 4 
+High Salary Employees   
+: 2 
+Total Errors in Logs    : 0 
