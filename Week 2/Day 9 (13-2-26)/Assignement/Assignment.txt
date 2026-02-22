@@ -1,0 +1,53 @@
+1) What are broadcasting rules? 
+Broadcasting works when array shapes are compatible: compare from the last axis. 
+Dimensions must be equal OR one of them must be 1. 
+Missing dimensions are treated as 1. 
+
+2) Why is broadcasting important in ML? 
+ML needs fast operations like scaling, normalization, and weight updates. 
+Broadcasting avoids loops and makes computations faster and cleaner. 
+It supports efficient batch processing in deep learning. 
+
+3) What is a random number? 
+A random number is a value generated unpredictably within a range. 
+In computing, most random values are pseudo-random (algorithm-based). 
+Used in simulations, sampling, and ML initialization. 
+
+4) Difference between rand and randint? 
+rand() generates random floats between 0 and 1. 
+randint(a,b) generates random integers between a and b-1. 
+Example: rand(3) → floats, randint(1,10,3) → integers. 
+
+5) Explain sorting in NumPy 
+NumPy supports sorting using np.sort() and array.sort(). 
+np.sort() returns a sorted copy, while array.sort() sorts in-place. 
+You can sort along rows/columns using axis. 
+
+6) How can we search elements in NumPy? 
+Use np.where(condition) to find indexes matching a condition. 
+Use boolean masking like arr[arr>10] for direct filtering. 
+Use np.isin() to check membership of elements. 
+
+7) What is joining? Types in NumPy 
+Joining means combining multiple arrays into one array. 
+Types: concatenate(), stack(), hstack(), vstack(), dstack(). 
+Used for merging features in ML datasets. 
+
+8) Explain shape and reshape 
+shape gives the dimension structure like (rows, cols). 
+reshape() changes the array shape without changing data values. 
+Example: (6,) → (2,3) if total elements match. 
+
+9) Difference between copy and view 
+A view shares the same memory, so changes affect the original array. 
+A copy creates new memory, so changes do not affect original. 
+Use arr.view() and arr.copy(). 
+
+10) Difference between flatten() and ravel() 
+flatten() returns a new flattened copy (extra memory). 
+ravel() returns a flattened view when possible (memory efficient). 
+Both convert multi-D to 1D. 
+
+11) Difference between deep copy and shallow copy? 
+Shallow copy shares references to the same inner objects (partial sharing). 
+Deep copy creates completely independent objects in new memory.

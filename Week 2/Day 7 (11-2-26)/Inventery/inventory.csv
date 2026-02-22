@@ -1,0 +1,5 @@
+ProductID,ProductName,Category,Price,Stock 
+101,Keyboard,Electronics,799,10 
+102,Mouse,Electronics,399,20 
+103,Notebook,Stationery,50,100 
+104,Pen,Stationery,10,200 
