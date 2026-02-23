@@ -1,0 +1,16 @@
+product_id,product_name,product_category,region,customer_id,order_id,date,price,quality
+P001,Wireless Mouse,Electronics,South,C101,O5001,05-01-2024,799,Good
+P002,USB Keyboard,Electronics,North,C102,O5002,06-01-2024,999,Very Good
+P003,Office Chair,Furniture,West,C103,O5003,07-01-2024,5499,Excellent
+P004,Notebook,Stationery,East,C104,O5004,08-01-2024,120,Good
+P005,Pen Set,Stationery,South,C105,O5005,09-01-2024,250,Average
+P006,Smartphone,Electronics,North,C106,O5006,10-01-2024,15999,Excellent
+P007,Water Bottle,Home & Kitchen,West,C107,O5007,11-01-2024,499,Very Good
+P008,LED Lamp,Home & Kitchen,East,C108,O5008,12-01-2024,899,Good
+P009,Backpack,Accessories,South,C109,O5009,13-01-2024,1299,Very Good
+P010,Headphones,Electronics,North,C110,O5010,14-01-2024,1999,Good
+P011,Coffee Mug,Home & Kitchen,West,C111,O5011,15-01-2024,349,Excellent
+P012,Desk Organizer,Furniture,East,C112,O5012,16-01-2024,799,Very Good
+P013,Power Bank,Electronics,South,C113,O5013,17-01-2024,1499,Good
+P014,Table Clock,Home & Kitchen,North,C114,O5014,18-01-2024,699,Average
+P015,File Folder,Stationery,West,C115,O5015,19-01-2024,180,Good

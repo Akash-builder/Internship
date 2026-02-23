@@ -1,0 +1,31 @@
+PROBLEM STATEMENT
+A telecom company wants to analyze its customer data to:
+
+1. Identify trends in customer churn over time.
+2. Detect customers at high risk of leaving.
+3. Understand how churn affects revenue.
+4. Provide insights for retention strategies (like targeted offers).
+
+The company has data including customer demographics, usage, subscription plans, billing,
+and churn status.
+
+SOLUTION APPROACH
+
+1. Data Cleaning & Preprocessing
+o Handle missing values.
+o Convert categorical columns to numeric if needed.
+o Create features like tenure groups.
+
+2. Exploratory Data Analysis (EDA)
+o Churn trends over tenure, contract type, plan type.
+o Visualize high-risk customer segments.
+o Analyze revenue per churned vs active customers.
+
+3. High-Risk Customer Identification
+o Use churn probability scores via logistic regression or decision tree.
+o Highlight customers with high monthly charges + short tenure + month-to-
+month contract.
+
+4. Retention Insights
+o Identify segments with high churn probability.
+o Suggest strategies: loyalty programs, plan upgrades, targeted offers.

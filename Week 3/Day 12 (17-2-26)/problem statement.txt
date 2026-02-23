@@ -1,0 +1,18 @@
+Problem Statement
+
+You are given raw e-commerce order data containing customer and product details.
+Your task is to:
+
+1. Remove duplicate orders (based on order_id)
+2. Fix gender values (m → male, f → female)
+3. Handle invalid age values
+4. Fill missing values in city column using mode
+5. Standardize product category names
+6. Convert order date to datetime format
+7. Extract month names
+8. Extract day names
+9. Rename columns to lowercase
+10. Perform business analysis:
+    • Total revenue
+    • Top cities by sales
+    • Category-wise sales

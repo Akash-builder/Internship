@@ -1,0 +1,133 @@
+1) What is Statistics?
+Statistics is the science of collecting, analyzing, interpreting, and presenting data.
+It helps in decision-making under uncertainty.
+Used widely in business, research, and machine learning.
+
+2) Types of Statistics
+1. Descriptive Statistics – Summarizes data (mean, median, std).
+2. Inferential Statistics – Makes predictions or conclusions about a population using
+samples.
+
+3) Central Tendency
+Measures the center value of data: Mean, Median, Mode.
+Hands-on Code
+import numpy as np
+data = [10, 20, 30, 40, 50]
+print("Mean:", np.mean(data))
+print("Median:", np.median(data))
+4) Measures of Dispersion
+
+Shows spread of data.
+• Range = Max − Min
+• Variance (var) = Average squared deviation
+• Standard Deviation (std) = √Variance
+• IQR = Q3 − Q1
+print("Range:", max(data)-min(data))
+print("Variance:", np.var(data))
+print("Std Dev:", np.std(data))
+print("IQR:", np.percentile(data,75)-np.percentile(data,25))
+
+5) t-test
+Compares means of two groups when sample size is small.
+Used when population standard deviation is unknown.
+
+6) z-test
+Used to compare means when sample size is large and population variance is known.
+
+7) ANOVA (Analysis of Variance)
+Compares means of more than 2 groups.
+Assumptions:
+• Normal distribution
+• Homogeneity of variance
+• Independent observations
+
+8) p-value
+Probability of obtaining results assuming null hypothesis is true.
+If p < 0.05 → reject null hypothesis.
+
+9) Hypothesis Testing
+Process of testing assumptions using:
+• Null hypothesis (H0)
+• Alternative hypothesis (H1)
+Based on p-value & significance level.
+
+10) z-score
+
+Measures how many standard deviations a value is from mean.
+Formula:
+[
+z = (x - \mu) / \sigma
+]
+
+11) Significance Level (α)
+Threshold (usually 0.05) to decide rejection of H0.
+Controls Type I error rate.
+
+12) Chi-Square Test
+Tests relationship between categorical variables.
+Used for independence & goodness-of-fit tests.
+
+13) Data Distribution
+Common distributions:
+• Normal (bell-shaped)
+• Binomial (success/failure)
+• Poisson (event counts)
+• Uniform (equal probability)
+14) Inferential Statistics
+
+Draws conclusions about population from sample data.
+Example: predicting election results from survey sample.
+
+15) Correlation
+Measures relationship between variables.
+Range: -1 to +1.
+
+16) Regression Analysis
+Predicts dependent variable based on independent variables.
+Example: Predict salary based on experience.
+
+17) Independent & Dependent Variables
+• Independent → Input (cause)
+• Dependent → Output (effect)
+
+18) Impact of Statistics on ML
+
+• Feature selection
+• Model evaluation
+• Hypothesis validation
+• Probability-based predictions
+
+19) Data Attributes
+Characteristics of data (numeric, categorical, ordinal, nominal).
+
+20) Qualitative vs Quantitative
+• Qualitative → Non-numeric (gender, city)
+• Quantitative → Numeric (age, salary)
+
+21) Continuous vs Categorical
+• Continuous → Infinite values (height, weight)
+• Categorical → Groups (male/female)
+
+22) What is Data?
+Raw facts and figures.
+Types:
+• Structured
+• Unstructured
+• Semi-structured
+
+23) Structured vs Unstructured
+• Structured → Tables (Excel, SQL)
+• Unstructured → Images, text, videos
+
+24) Outliers
+Extreme values far from majority data.
+Important because they affect mean and model performance.
+
+25) Finding Outliers
+Z-score Method
+z_scores = (data - np.mean(data)) / np.std(data)
+IQR Method
+
+Q1 = np.percentile(data,25)
+Q3 = np.percentile(data,75)
+IQR = Q3 - Q1

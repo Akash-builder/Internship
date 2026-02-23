@@ -1,0 +1,77 @@
+1) What is Probability?
+Probability measures the likelihood of an event occurring.
+It ranges from 0 (impossible) to 1 (certain).
+Formula: ( P(A) = \frac{\text{Favorable Outcomes}}{\text{Total Outcomes}} )
+
+2) Mutually Exclusive vs Independent Events
+Mutually Exclusive Independent
+Cannot occur together Can occur together
+P(A ∩ B) = 0 P(A ∩ B) = P(A)P(B)
+Example: Toss → Head & Tail Coin toss & dice roll
+
+3) Addition Rule of Probability
+For two events A and B:
+
+[
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+]
+If mutually exclusive:
+[
+P(A \cup B) = P(A) + P(B)
+]
+
+4) Multiplication Rule
+For independent events:
+[
+P(A \cap B) = P(A) \times P(B)
+]
+For dependent events:
+[
+P(A \cap B) = P(A) \times P(B|A)
+]
+
+5) Conditional Probability
+Probability of event B given A occurred:
+[
+P(B|A) = \frac{P(A \cap B)}{P(A)}
+]
+Used in predictive modeling and risk analysis.
+
+6) Discrete vs Continuous Distribution
+Discrete                                
+Countable values 
+Example: No. of students 
+Binomial, Poisson Normal, Exponential
+
+Continuous
+Infinite values
+Height, weight
+Normal, Exponential
+
+7) Exponential Distribution
+Used to model waiting time between events.
+It is continuous and right-skewed.
+Common in queuing systems, hospital wait time, server response time.
+
+8) Variance and Standard Deviation
+• Variance: Average squared deviation from mean.
+• Standard Deviation (σ): Square root of variance.
+• Measures data spread.
+Higher std → More variability.
+
+9) Bayes Theorem
+Bayes theorem updates probability based on new evidence:
+[
+P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+]
+Where:
+• P(A) → Prior probability
+• P(B|A) → Likelihood
+• P(A|B) → Posterior probability
+
+10) Applications of Bayes Theorem
+• Spam email detection
+• Medical diagnosis (disease probability)
+• Fraud detection
+• Machine Learning (Naive Bayes classifier)
+• Risk assessment & decision making
